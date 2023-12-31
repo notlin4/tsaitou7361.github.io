@@ -1,0 +1,51 @@
+.left {
+    display: block;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.right {
+    display: block;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: warp;
+}
+
+ol.center {
+    display: block;
+    text-align: left;
+}
+
+.font {
+    font-family: 'Noto Sans', 'Segoe UI', 'Microsoft JhengHei', 'Microsoft YaHei', 'sans-serif';
+}
+
+.box {
+    flex: 1;
+    margin: 5px;
+    min-width: 210px;
+    border: 1px solid #CCC;
+    padding: 0 10px 10px 10px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+}
+
+.mainpage_row {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0
+}
