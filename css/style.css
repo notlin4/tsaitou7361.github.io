@@ -28,6 +28,12 @@ ol.center {
     text-align: left;
 }
 
+body.center {
+    display: table;
+    text-align: center;
+}
+
+
 .font {
     font-family: 'Noto Sans', 'Segoe UI', 'Microsoft JhengHei', 'Microsoft YaHei', 'sans-serif';
 }
