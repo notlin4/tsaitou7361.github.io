@@ -2,12 +2,19 @@
     width: 90%;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 ol.center {
     display: block;
     text-align: left;
 }
 
-body {
+/* body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,8 +22,17 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
+/* html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+hr {
+    width: 100%;
+}
 
 .font {
     font-family: 'Noto Sans', 'Segoe UI', 'Microsoft JhengHei', 'Microsoft YaHei', 'sans-serif';
