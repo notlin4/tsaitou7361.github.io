@@ -39,7 +39,7 @@ hr {
 }
 
 .font-code {
-    font-family: 'Cascadia Mono', 'monospace'
+    font-family: 'Cascadia Mono', 'monospace';
 }
 
 .box {
@@ -57,7 +57,7 @@ hr {
     flex-flow: row wrap;
     justify-content: space-between;
     padding: 0;
-    margin: 0
+    margin: 0;
 }
 
 @media (min-width: 768px) {
