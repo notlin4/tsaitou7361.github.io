@@ -38,6 +38,10 @@ hr {
     font-family: 'Noto Sans', 'Segoe UI', 'Microsoft JhengHei', 'Microsoft YaHei', 'sans-serif';
 }
 
+.font-code {
+    font-family: 'Cascadia Mono', 'monospace'
+}
+
 .box {
     flex: 1;
     margin: 5px;
